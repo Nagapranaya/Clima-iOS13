@@ -18,8 +18,7 @@ struct WeatherManager{
         performRequest(urlString: urlString)
     }
     func performRequest(urlString: String){
-        let url = URL(string: urlString)
-        print(url)
+        
         if let url = URL(string: urlString){
             
             let session = URLSession(configuration: .default)    
